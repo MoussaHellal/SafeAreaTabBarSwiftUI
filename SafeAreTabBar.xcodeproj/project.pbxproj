@@ -14,6 +14,7 @@
 		B59C6A372A35C9BD005D2C6E /* SafeAreTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C6A362A35C9BD005D2C6E /* SafeAreTabBarTests.swift */; };
 		B59C6A412A35C9BD005D2C6E /* SafeAreTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C6A402A35C9BD005D2C6E /* SafeAreTabBarUITests.swift */; };
 		B59C6A432A35C9BD005D2C6E /* SafeAreTabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C6A422A35C9BD005D2C6E /* SafeAreTabBarUITestsLaunchTests.swift */; };
+		B59C6A502A35CDCC005D2C6E /* SafeAreaTabBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C6A4F2A35CDCC005D2C6E /* SafeAreaTabBar+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B59C6A3C2A35C9BD005D2C6E /* SafeAreTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeAreTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59C6A402A35C9BD005D2C6E /* SafeAreTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreTabBarUITests.swift; sourceTree = "<group>"; };
 		B59C6A422A35C9BD005D2C6E /* SafeAreTabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreTabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B59C6A4F2A35CDCC005D2C6E /* SafeAreaTabBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SafeAreaTabBar+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B59C6A252A35C9BC005D2C6E /* SafeAreTabBarApp.swift */,
+				B59C6A4F2A35CDCC005D2C6E /* SafeAreaTabBar+Extensions.swift */,
 				B59C6A272A35C9BC005D2C6E /* ContentView.swift */,
 				B59C6A292A35C9BD005D2C6E /* Assets.xcassets */,
 				B59C6A2B2A35C9BD005D2C6E /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				B59C6A282A35C9BC005D2C6E /* ContentView.swift in Sources */,
 				B59C6A262A35C9BC005D2C6E /* SafeAreTabBarApp.swift in Sources */,
+				B59C6A502A35CDCC005D2C6E /* SafeAreaTabBar+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
